@@ -13,4 +13,7 @@
         <h1>{{ post.title }}</h1>
         <p>{{ post.text|linebreaksbr }}</p>
     </div>
+    <div>
+        <a href="{% url 'post_list' %}"><button type="button" class="btn btn-default">Back</button></a>
+    </div>
 {% endblock %}

@@ -6,4 +6,7 @@
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Save</button>
     </form>
+    <div>
+        <a href="{% url 'post_list' %}"><button type="button" class="btn btn-default">Back</button></a>
+    </div>
 {% endblock %}
